@@ -14,13 +14,13 @@ provider "google" {
 }
 
 
-terraform {
-  backend "gcs" {
-    bucket      = "bucket_hayet"
-    prefix      = "terraform"
-    credentials = "yefsah-hayet-3196a937a336.json"
-  }
-}
+# terraform {
+#   backend "gcs" {
+#     bucket      = "bucket_hayet"
+#     prefix      = "terraform"
+#     credentials = "yefsah-hayet-3196a937a336.json"
+#   }
+# }
 
 # resource "google_compute_network" "vpc_network" {
 #   name = "terraform-network"
