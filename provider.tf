@@ -9,7 +9,6 @@ terraform {
 provider "google" {
   version = "4.51.0"
   project = "yefsah-hayet"
-  credentials = "yefsah-hayet-3196a937a336.json"
   region  = "europe-west1"
   zone    = "europe-west1-b"
 }
