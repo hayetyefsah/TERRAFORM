@@ -1,8 +1,3 @@
-module "network" {
-  source = "../MODULE"
-}
-
-
 resource "google_compute_firewall" "ouv" {
   name       = "test1-firewall"
   network    = module.network.vpc
