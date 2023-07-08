@@ -57,6 +57,10 @@ jobs:
       - name: Terraform Init
         id: tf_init
         run: terraform init -backend-config="bucket=bucket_hayet"
+     
+      - name: Terraform Validate
+        id: tf_validate
+        run: terraform validate
 
 
         
