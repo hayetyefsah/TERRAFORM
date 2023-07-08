@@ -55,7 +55,7 @@ jobs:
           tf_actions_working_dir: .
           tf_actions_comment: true
 
-      - run: gcloud auth application-default login 
+      - run: gcloud auth application-default login --quiet
 
       - name: 'Terraform PLAN'
         uses: hashicorp/terraform-github-actions@master
