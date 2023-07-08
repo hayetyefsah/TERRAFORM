@@ -61,6 +61,9 @@ jobs:
       - name: Terraform Validate
         id: tf_validate
         run: terraform validate
+      - name: Terraform Plan
+        id: terraform_plan
+        run: terraform plan
 
 
         
