@@ -39,13 +39,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
   
-      - name: 'Google auth'
-        id: 'auth'
-        uses: 'google-github-actions/auth@v1'
-        with:
-            create_credentials_file: 'true'
-            workload_identity_provider: '${{ secrets.workload_identity_provider }}'
-            service_account: '${{ secrets.service_account }}'
 
       - name: 'Authenticate to Google Cloud'
         id: auth2
