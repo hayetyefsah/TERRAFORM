@@ -6,10 +6,10 @@ terraform {
   }
 }
 provider "google" {
-  version = "3.5.0"
+  version = "4.51.0"
   project = "yefsah-hayet"
-  region  = "eu-west1"
-  zone    = "eu-west1-b"
+  region  = "europe-west1"
+  zone    = "europe-west1-b"
 }
 
 
